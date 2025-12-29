@@ -63,6 +63,21 @@ cmd -
     >git checkout -b "give your branch name"   --> Jump to one branch to another branch (-b means create the new barnch )
 	
 	
+…or create a new repository on the command line
+echo "# PracticeRepo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/SomaiahV/PracticeRepo.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/SomaiahV/PracticeRepo.git
+git branch -M main
+git push -u origin main
+	
+	
+	
 
 
 
